@@ -1,0 +1,84 @@
+
+body{
+    font-family: serif, helvetica;
+}
+
+#myBtn{
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */ 
+  cursor: pointer; /* Add a mouse pointer on hover */
+}
+
+h1, h2, h3{
+    overflow: hidden;
+}
+
+#msd_h1{
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.row1{
+    background-color: #c9e9f6;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.row2{
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.row3{
+    background-color: 	#c0c5ce;
+    color: black;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.awareness1{
+    float: left;
+    position: relative;
+    height: 500px;
+    width: 500px;
+}
+
+.card{
+   
+    background-color: rgba(135,206,235,0.5);
+    margin-top: 5rem;
+    margin-right: 6rem;
+    border-radius: 20px;
+}
+
+.card-content{
+    font-size: large;
+    font-weight: 99999;
+}
+
+.card-content p{
+    margin: 200px;
+}
+
+.page-footer{
+    background-color: #6497b1;
+}
+
+#do{
+    float: center;
+}
+
+#dont{
+    float: center;
+}
+
+.row .row3 .do{
+    margin-top: 20px;
+    padding-top: -100px;
+    padding-left: 100px;
+}
