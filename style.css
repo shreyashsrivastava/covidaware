@@ -35,10 +35,25 @@ h1, h2, h3{
 }
 
 .row3{
-    background-color: 	#c0c5ce;
+    background-color: #F8EEE7;
     color: black;
     margin: 0px;
     padding-bottom: 20px;
+}
+
+.row4{
+    margin: 0px;
+    padding-bottom: 30px;
+    background-color: rgba(213, 233, 255, 0.904);
+    color: black;
+}
+
+.row5{
+    margin-top: -42px;
+    margin-bottom: -20px;
+    padding-bottom: 30px;
+    background-color: #dcd0c0;
+    color: black;
 }
 
 .awareness1{
@@ -49,7 +64,6 @@ h1, h2, h3{
 }
 
 .card{
-   
     background-color: rgba(135,206,235,0.5);
     margin-top: 5rem;
     margin-right: 6rem;
